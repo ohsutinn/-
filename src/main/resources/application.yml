@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: emo-self
+  config:
+    import: classpath:application-key.yml
+  profiles:
+    active: dev
